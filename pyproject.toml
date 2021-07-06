@@ -1,0 +1,25 @@
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.poetry]
+name = "umailer"
+version = "0.1.0"
+description = "A FastAPI handler to download and save the registry attachements from emails."
+authors = ["Nurbakyt Madibek <madibek.n@chocolife.kz>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.65.1"
+uvicorn = "^0.13.4"
+pre-commit = "^2.13.0"
+python-dotenv = "^0.17.1"
+IMAPClient = "^2.2.0"
+chardet = "^4.0.0"
+pytz = "^2021.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
