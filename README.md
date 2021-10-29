@@ -26,6 +26,7 @@ Following is the list of main improvements I would work on before releasing:
 
 - Add tests
 - Add Continues Integration (CI)
+- Add frontend
 
 ## Raising Issues
 
