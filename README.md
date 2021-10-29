@@ -1,13 +1,13 @@
 # Umailer
 
-Umailer is an app that connects to an IMAP server, reads emails, and downloads attachments.
+Emailer is an app that connects to an IMAP server, reads emails, and downloads attachments.
 
 ## Getting Started Locally
 
 To start the app, initialize [Poetry](https://python-poetry.org/), set up environment variables by creating .env file (follow example.env) and run the following from the root of the repo:
 
 ```sh
-uvicorn app.main:app
+uvicorn backend.main:app
 ```
 
 Check the interactive API docs at [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) or at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to see what requests you can send to the app.
@@ -24,7 +24,6 @@ Python 3.8.5 is the default language of the project.
 
 Following is the list of main improvements I would work on before releasing:
 
-- Dockerize the app
 - Add tests
 - Add Continues Integration (CI)
 
